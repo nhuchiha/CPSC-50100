@@ -33,8 +33,8 @@ public class Cipher {
 		}
 		
 		//Calculate the encoded number
-		firstNum = (sum/10 + keyNum) % 10; // need to grab the 10th
-		secondNum = (sum % 10 + keyNum) % 10; //need to grab the secondNum
+		firstNum = (sum/10 + keyNum) % 10; 
+		secondNum = (sum % 10 + keyNum) % 10; 
 		encodedNum = firstNum * 10 + secondNum;
 		
 		//Display the numbers
