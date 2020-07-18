@@ -46,8 +46,6 @@ public class Cipher {
 			System.out.println("#########################################");
 			System.out.println("The key number is: " + keyNum);
 			System.out.println("The encoded number is: "+ encodedNum);
-		}
-		
+		}		
 	}
-
 }
